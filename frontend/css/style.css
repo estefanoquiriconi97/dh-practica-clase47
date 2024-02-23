@@ -112,3 +112,24 @@ input, select{
 .card:nth-child(5n) h1 {
   background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
 }
+
+/* Estilos básicos para el botón */
+.edit-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+/* Estilos cuando el cursor está sobre el botón */
+.edit-button:hover {
+  background-color: #0056b3; /* Cambio de color de fondo */
+}
+
+/* Estilos cuando el botón está activo */
+.edit-button:active {
+  background-color: #003c80; /* Cambio de color de fondo */
+}
